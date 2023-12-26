@@ -1,0 +1,30 @@
+
+<!-- 5.- Si un div es referenciado por 3 selectores: selector de elemento, clase e identificador,
+¿Cuál tiene prioridad? Verifique la respuesta realizando algún código de prueba. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Selector de Elemento */
+        div {
+            color: blue;
+        }
+
+        /* Clase */
+        .clase {
+            color: red;
+        }
+
+        /* Identificador (mayor prioridad) */
+        #id {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="id" class="clase">Contenido</div>
+</body>
+</html>

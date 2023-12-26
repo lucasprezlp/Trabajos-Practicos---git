@@ -1,0 +1,45 @@
+<!-- 3.- Usando CSS, agregue una imagen de fondo que se ubique en la esquina superior
+derecha de la página. La imagen debe permanecer fija aún cuando el usuario realice un
+scroll vertical de la página. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+    <style>
+        .Luis{
+
+            border: 5px solid black;
+            position: fixed;
+            height: 250px;
+            display: flex;
+            /* width: 100%; */
+            background-color: blue;
+            right: 0;
+            top: 0;
+
+        }
+        .position{
+            position: relative;
+            top: 300px;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="Luis"><img src="../Ejercicio2/img/imagen6.jpg" alt=""></div>
+
+
+<div class="position">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugiat deleniti eveniet eius fugit, quos eum odio mollitia non obcaecati. Adipisci similique quis voluptatem ut quibusdam explicabo ipsa iure fugiat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugiat deleniti eveniet eius fugit, quos eum odio mollitia non obcaecati. Adipisci similique quis voluptatem ut quibusdam explicabo ipsa iure fugiat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugiat deleniti eveniet eius fugit, quos eum odio mollitia non obcaecati. Adipisci similique quis voluptatem ut quibusdam explicabo ipsa iure fugiat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugiat deleniti eveniet eius fugit, quos eum odio mollitia non obcaecati. Adipisci similique quis voluptatem ut quibusdam explicabo ipsa iure fugiat.</p>
+</div>
+    
+    
+    
+</body>
+</html>
